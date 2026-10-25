@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-label="Ilustración original de estética barbería">
+    <defs>
+      <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#342820"/><stop offset="1" stop-color="#0f1010"/></linearGradient>
+      <radialGradient id="glow"><stop stop-color="#cf925b" stop-opacity=".32"/><stop offset="1" stop-color="#cf925b" stop-opacity="0"/></radialGradient>
+      <linearGradient id="skin" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#e6b381"/><stop offset=".65" stop-color="#9a6344"/><stop offset="1" stop-color="#583627"/></linearGradient>
+      <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#49433c"/><stop offset=".55" stop-color="#252525"/><stop offset="1" stop-color="#090a0b"/></linearGradient>
+      <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4ddcc"/><stop offset=".4" stop-color="#867e74"/><stop offset=".7" stop-color="#f9f4df"/><stop offset="1" stop-color="#6e655c"/></linearGradient>
+      <pattern id="lines" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M0 45L45 0" stroke="#fff" stroke-opacity=".04" stroke-width="1"/></pattern>
+      <filter id="shadow"><feGaussianBlur stdDeviation="22"/></filter>
+    </defs><rect width="100%" height="100%" fill="url(#bg)"/><rect width="100%" height="100%" fill="url(#lines)"/>
+    <circle cx="429" cy="216" r="448" fill="url(#glow)"/>
+    <circle cx="340" cy="315" r="260" fill="none" stroke="#b68d58" stroke-width="2" opacity=".55"/>
+<path d="M35 680Q150 505 280 560L393 560Q570 510 630 680Z" fill="url(#coat)"/>
+<path d="M240 476L242 581Q323 634 408 573L395 470Z" fill="url(#skin)"/>
+<path d="M200 213Q196 111 315 102Q453 113 462 233L447 398Q430 506 345 527Q252 518 214 420Z" fill="url(#skin)"/>
+<path d="M205 304Q159 180 254 118Q287 68 379 91Q484 110 470 274Q417 251 384 216Q283 253 209 239Z" fill="#191918"/>
+<path d="M204 302Q211 381 227 417" fill="none" stroke="#574338" stroke-width="30"/>
+<path d="M251 340Q284 321 304 337M358 336Q393 322 412 334" fill="none" stroke="#31211c" stroke-width="11" stroke-linecap="round"/>
+<path d="M316 343L303 406 333 408" fill="none" stroke="#7d4d38" stroke-width="6"/>
+<path d="M273 444Q331 477 388 440" fill="none" stroke="#3d2822" stroke-width="8"/>
+<path d="M224 415Q240 503 332 545Q427 523 447 410Q435 490 388 504L330 526Q260 491 224 415" fill="#28211d"/>
+<text x="40" y="71" fill="#d0ae78" font-size="18" letter-spacing="6" font-family="Arial">01 / THE CUT</text></svg>
