@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Demostración ficticia de una página profesional y adaptable para barberías. No representa un negocio real.">
+  <!-- DEMO: quitar o cambiar a index,follow al publicar un negocio verificado. -->
+  <meta name="robots" content="noindex,nofollow">
+  <title>RITUAL — Barber Studio · Demo</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" as="image" href="assets/hero-art.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="utils.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#principal">Saltar al contenido</a>
+  <div class="demo-ribbon" id="demo-ribbon" role="note"><span class="status-dot" aria-hidden="true"></span> SITIO DE DEMOSTRACIÓN · MARCA FICTICIA · INFORMACIÓN ILUSTRATIVA</div>
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-symbol" aria-hidden="true">R<span>.</span></span>
+        <span class="brand-stack"><strong data-brand>RITUAL</strong><small data-brand-suffix>BARBER STUDIO</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú de navegación"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Ubicación</a>
+        <button type="button" class="button button-small button-outline" data-book>Agendar hora <span aria-hidden="true">↗</span></button>
+      </nav>
+    </div>
+  </header>
+  <main id="principal">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-rule"></span><span id="hero-eyebrow">ESTILO · DETALLE · ACTITUD</span></div>
+          <h1 id="hero-title">El corte es <em>solo el</em> comienzo<span class="accent-dot">.</span></h1>
+          <p id="hero-description">Un espacio pensado para quienes valoran su estilo. Cortes precisos, detalles cuidados y una experiencia a tu ritmo.</p>
+          <div class="hero-actions">
+            <button type="button" class="button button-primary" data-book>Reserva tu momento <span aria-hidden="true">↗</span></button>
+            <a class="text-link" href="#servicios">Explorar servicios <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof"><span class="proof-icon" aria-hidden="true">✳</span><span>Una experiencia pensada en los detalles.<small>Diseño de muestra · personalizable para tu negocio</small></span></div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración original de estética barbería">
+          <div class="hero-picture"><img src="assets/hero-art.svg" alt="Ilustración editorial de un barbero y herramientas de corte" width="920" height="1040" fetchpriority="high"></div>
+          <div class="hero-vertical" aria-hidden="true">CRAFTED WITH ATTITUDE · EST. —</div>
+          <div class="hero-sticker" aria-hidden="true"><span>FRESH<br>CUTS</span><b>✳</b><small>LOOK GOOD / FEEL GOOD</small></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>01 / UN ESTILO PROPIO</span><a href="#servicios">DESLIZA PARA DESCUBRIR <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <div class="wordstrip" aria-label="Precisión, estilo y confianza"><div class="wordstrip-inner">PRECISIÓN <span>✳</span> ESTILO <span>✳</span> CARÁCTER <span>✳</span> DETALLE <span>✳</span> PRECISIÓN <span>✳</span> ESTILO <span>✳</span></div></div>
+
+    <section class="section section-services" id="servicios" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-top"><div><span class="section-kicker">01 / LO QUE HACEMOS</span><h2 id="services-title">El detalle <em>hace</em><br>la diferencia<span class="accent-dot">.</span></h2></div><p>Cada servicio es una oportunidad para encontrar tu mejor versión. Explora el catálogo de demostración.</p></div>
+        <div class="services-grid" id="services-grid" aria-live="polite"></div>
+        <p class="hint" id="prices-note">* Servicios, duraciones y precios ilustrativos para esta demo. No son una oferta comercial real.</p>
+      </div>
+    </section>
+
+    <section class="experience" id="experiencia" aria-labelledby="experience-title">
+      <div class="container experience-grid">
+        <div class="experience-art"><img src="assets/galeria-herramientas.svg" alt="Ilustración artística de herramientas de barbería" width="720" height="780" loading="lazy"><div class="floating-label">EL ARTE DEL DETALLE <span>✳</span></div></div>
+        <div class="experience-text"><span class="section-kicker">02 / UNA EXPERIENCIA DISTINTA</span><h2 id="experience-title">No es solo<br>un corte.<br><em>Es actitud.</em></h2><p>El buen estilo no se improvisa. Se construye con tiempo, precisión y atención al detalle. Una idea simple que inspira este diseño.</p><div class="experience-points"><div><span>01</span><strong>Tu estilo, primero</strong><small>Un servicio que parte por escuchar lo que buscas.</small></div><div><span>02</span><strong>Atención al detalle</strong><small>Cada terminación cuenta.</small></div><div><span>03</span><strong>Una pausa para ti</strong><small>Un espacio que se disfruta.</small></div></div><a href="#galeria" class="text-link text-link-light">Ver la inspiración visual <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria" aria-labelledby="gallery-title">
+      <div class="container"><div class="section-top"><div><span class="section-kicker">03 / INSPIRACIÓN</span><h2 id="gallery-title">Detalles que <em>hablan.</em></h2></div><p>Una muestra visual de estilo y oficio. Al convertir esta demo en una web real, reemplaza estas ilustraciones por fotos autorizadas del negocio.</p></div><div class="gallery-grid" id="gallery-grid"></div><p class="hint">Imágenes originales ilustrativas. No son fotografías ni trabajos de una barbería real.</p></div>
+    </section>
+
+    <section class="manifesto"><div class="container manifesto-inner"><div class="manifesto-star" aria-hidden="true">✳</div><span class="section-kicker">HAZLO TUYO</span><p>Un estilo que se nota.<br><em>Una experiencia que se recuerda.</em></p><button type="button" class="button button-dark" data-book>Hablemos de tu próximo corte <span aria-hidden="true">↗</span></button></div></section>
+
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-title"><div class="container contact-grid"><div class="contact-intro"><span class="section-kicker">04 / ENCUÉNTRANOS</span><h2 id="contact-title">Tu próximo<br>look <em>empieza</em><br>aquí<span class="accent-dot">.</span></h2><p>Personaliza estos datos con la ubicación y los canales oficiales del negocio antes de entregar la web a un cliente.</p><button type="button" class="button button-primary" data-book>Consultar disponibilidad <span aria-hidden="true">↗</span></button></div><div class="contact-panel"><div class="panel-head"><span>INFORMACIÓN DEL ESTUDIO</span><span aria-hidden="true">✳</span></div><div class="contact-item"><span class="contact-icon" aria-hidden="true">⌖</span><div><h3>DIRECCIÓN</h3><p id="address-display">Dirección por configurar</p><a class="contact-action" id="map-link" href="#contacto" hidden target="_blank" rel="noopener noreferrer">Cómo llegar ↗</a></div></div><div class="contact-item"><span class="contact-icon" aria-hidden="true">◷</span><div><h3>HORARIOS</h3><div id="hours-display"><p>Horarios por confirmar</p></div></div></div><div class="contact-item"><span class="contact-icon" aria-hidden="true">↗</span><div><h3>CONTACTO</h3><p id="phone-display">WhatsApp por configurar</p><a class="contact-action" id="instagram-link" href="#contacto" hidden target="_blank" rel="noopener noreferrer">Instagram oficial ↗</a></div></div><div class="map-placeholder"><span aria-hidden="true">⌖</span><div>Tu ubicación, <strong>en el mapa.</strong><small id="map-note">Agrega el enlace a Google Maps en config.js</small></div></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-top"><div class="footer-brand"><strong data-brand>RITUAL</strong><small data-brand-suffix>BARBER STUDIO</small></div><p>El estilo empieza con los detalles.</p><a href="#inicio">VOLVER ARRIBA ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> <span data-brand>RITUAL</span>. <span id="footer-legal">Sitio de demostración ficticio.</span></span><span>Hecho con HTML · CSS · JavaScript, sin frameworks.</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog class="lightbox" id="lightbox" aria-label="Vista ampliada de ilustración"><form method="dialog"><button class="lightbox-close" aria-label="Cerrar ilustración">✕</button></form><img id="lightbox-image" src="assets/galeria-corte.svg" alt="" width="800" height="800"><p id="lightbox-caption"></p></dialog>
+</body>
+</html>
